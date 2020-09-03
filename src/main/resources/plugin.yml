@@ -1,0 +1,4 @@
+name: MoripaKiss
+version: 1.0
+main: com.github.namiuni.moripakiss.MoripaKiss
+api-version: 1.16
