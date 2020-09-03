@@ -16,6 +16,7 @@ class KissListener :Listener  {
     @EventHandler
     fun onClickedPlayer(event: PlayerInteractEntityEvent) {
         if (event.rightClicked !is Player) return
+        if (!event.player.isSneaking) return
 
         val player = event.player
         val clickedPlayer = event.rightClicked as Player
